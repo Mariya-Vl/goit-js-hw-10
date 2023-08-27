@@ -35,7 +35,7 @@ export function fetchCatByBreed(breedId) {
     });
 }
 
-function hideLoader() {
+export function hideLoader() {
   loader.setAttribute('hidden', 'hidden');
 }
 
