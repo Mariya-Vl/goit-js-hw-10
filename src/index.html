@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/index.scss">
     <title>Homework 10</title>
   </head>
   <body>
-    <select class="breed-select">
-      
+    <select class="breed-select" hidden id="allowDeselect" selected="selected">
+      <option data-placeholder="true">Оберіть породу зі списку</option>
     </select>
-    <p class="loader" hidden>Loading data, please wait...</p>
+    <p class="loader" hidden></p>
     <p class="error" hidden>Oops! Something went wrong! Try reloading the page!</p>
     <div class="cat-info"></div>
 
